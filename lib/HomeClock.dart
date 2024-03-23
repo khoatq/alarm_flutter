@@ -28,7 +28,8 @@ class _HomeClockState extends State<HomeClock> {
       // ],
       appBar: AppBar(
         title: Text('Tạo báo thức'),
-        actions: <Widget>[TextButton(onPressed: () {}, child: Text('Xong'))],
+        actions: <Widget>[TextButton(onPressed: () {}
+        , child: Text('Xong'))],
       ),
       backgroundColor: Colors.deepPurple[100],
       body: CustomScrollView(
