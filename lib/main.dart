@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/HomeClock.dart';
 import 'package:flutter_application_3/alarm_page.dart';
-import 'package:flutter_application_3/form.dart';
+import 'package:flutter_application_3/selectTime.dart';
 
 void main() {
   runApp(myApp());

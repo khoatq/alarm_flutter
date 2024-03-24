@@ -27,7 +27,7 @@ class _alarmPageState extends State<alarmPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Báo Thứ'),
+        title: Text('Báo Thức'),
       ),
       body: Column(),
       floatingActionButton: FloatingActionButton(

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_application_3/form.dart';
+import 'package:flutter_application_3/selectTime.dart';
 
 class HomeClock extends StatefulWidget {
   const HomeClock({super.key});
@@ -28,8 +28,7 @@ class _HomeClockState extends State<HomeClock> {
       // ],
       appBar: AppBar(
         title: Text('Tạo báo thức'),
-        actions: <Widget>[TextButton(onPressed: () {}
-        , child: Text('Xong'))],
+        actions: <Widget>[TextButton(onPressed: () {}, child: Text('Xong'))],
       ),
       backgroundColor: Colors.deepPurple[100],
       body: CustomScrollView(
